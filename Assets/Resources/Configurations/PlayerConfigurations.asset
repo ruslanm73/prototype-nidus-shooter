@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf680f8d5e64dc2b8aae862247d1dd8, type: 3}
+  m_Name: PlayerConfigurations
+  m_EditorClassIdentifier: 
+  projectileGameObject: {fileID: 804353576639364013, guid: e96992d136488114ba42b9adbed9d81a,
+    type: 3}
+  targetLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  selfLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  playerProjectileZoneSprite: {fileID: 21300000, guid: 3f7209323f19edd4a977e6514419ef37,
+    type: 3}
+  ropeGameObject: {fileID: 5326848671444151493, guid: 33bdb142ad82da144b893217de184190,
+    type: 3}
+  magnetForce: 2
